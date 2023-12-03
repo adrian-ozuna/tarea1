@@ -1,0 +1,42 @@
+.container {
+  max-width: clamp(800px, 875px, 1444px);
+  margin: auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+input,
+select {
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+input[type='submit'] {
+  border: none;
+}
+
+form {
+  background: #e8e8e8;
+  padding: 1.75rem;
+  border-radius: 8px;
+}
+
+form input[type='submit'] {
+  background: rgb(237, 65, 65);
+  color: white;
+  width: 100%;
+}
+
+form input[type='submit']:hover {
+  background: rgb(194, 52, 52);
+}
+
+.text-center {
+  text-align: center;
+}
